@@ -70,7 +70,9 @@ To verify that Go installed successfully, type the command `go version` in the t
 ```
 $ go version
 go version go1.19.2 linux/amd64
-1.19.2 was the latest version of Go when writing this tutorial. This confirms that Go has been installed successfully. In the next tutorial, we will write our first Hello World program in Go :)
+
 ```
+
+1.19.2 was the latest version of Go when writing this tutorial. This confirms that Go has been installed successfully. In the next tutorial, we will write our first Hello World program in Go :)
 
 Please provide your valuable feedback and comments. Thanks for reading.
