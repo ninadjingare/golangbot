@@ -12,62 +12,65 @@ Why would you choose Go as your server side programming language when there are 
 
 Here are some of the pros which I found when choosing Go.
 
-Simple syntax
+### Simple syntax
 The syntax is simple and concise and the language is not bloated with unnecessary features. This makes it easy to write code that is readable and maintainable.
 
 Easy to write concurrent programs
 Concurrency is an inherent part of the language. As a result, writing multithreaded programs is a piece of cake. This is achieved by Goroutines and channels which we will discuss in the upcoming tutorials.
 
-Compiled language
+### Compiled language
 Go is a compiled language. The source code is compiled to a native binary. This is missing in interpreted languages such as JavaScript used in nodejs.
 
-Fast compilation
+### Fast compilation
 The Go compiler is pretty amazing and it has been designed to be fast right from the beginning.
 
-Static linking
+### Static linking
 The Go compiler supports static linking. The entire Go project can be statically linked into one big fat binary and it can be deployed in cloud servers easily without worrying about dependencies.
 
-Go Tooling
+### Go Tooling
 Tooling deserves a special mention in Go. Go comes bundled with powerful tools that help developers write better code. Few of the commonly used tools are,
 
 gofmt - gofmt is used to automatically format go source code. It uses tabs for indentation and blanks for alignment.
 vet - vet analyses the go source code and reports possible suspicious code. Everything reported by vet is not a genuine problem but it has the capability to catch errors that are not reported by the compiler such as incorrect format specifiers when using Printf.
 staticcheck - staticcheck is used to enforce styling issues in the code.
-Garbage collection
+### Garbage collection
 Go uses garbage collection and hence memory management is pretty much taken care automatically and the developer doesn’t need to worry about managing memory. This also helps to write concurrent programs easily.
 
-Simple language specification
+### Simple language specification
 The language spec is pretty simple. The entire spec is well documented and you can even use it to write your own compiler :)
 
-Opensource
+### Opensource
 Last but not least, Go is an open source project. You can participate and contribute to the Go project.
 
-Popular products built using Go
+## Popular products built using Go
 The following are some of the popular products built using Go.
 
-Google developed Kubernetes using Go.
-Docker, the world famous containerization platform is developed using Go.
-Dropbox has migrated its performance critical components from Python to Go.
-Infoblox’s next generation networking products are developed using Go.
-Installation
+- Google developed Kubernetes using Go.
++ Docker, the world famous containerization platform is developed using Go.
+* Dropbox has migrated its performance critical components from Python to Go.
+- Infoblox’s next generation networking products are developed using Go.
+
+## Installation
 Go can be installed on all the three platforms Mac, Windows, and Linux. You can download the binary for the corresponding platform from https://go.dev/dl/
 
-Mac OS
-Download the Mac OS installer from https://go.dev/dl/. Double tap to start the installation. Follow the prompts and this will have Golang installed in /usr/local/go and would have also added the folder /usr/local/go/bin to your PATH environment variable.
+#### Mac OS
+Download the Mac OS installer from https://go.dev/dl/. Double tap to start the installation. Follow the prompts and this will have Golang installed in /usr/local/go and would have also added the folder `/usr/local/go/bin` to your PATH environment variable.
 
-Windows
-Download the MSI installer from https://go.dev/dl/. Double tap to start the installation and follow the prompts. This will install Go in location c:\Go and will also add the directory c:\Go\bin to your path environment variable.
+#### Windows
+Download the MSI installer from https://go.dev/dl/. Double tap to start the installation and follow the prompts. This will install Go in location `c:\Go` and will also add the directory `c:\Go\bin` to your path environment variable.
 
-Linux
-Download the tar file from https://go.dev/dl/ and unzip it to /usr/local.
+#### Linux
+Download the tar file from https://go.dev/dl/ and unzip it to `/usr/local`.
 
-Add /usr/local/go/bin to the PATH environment variable. This will install Go in Linux.
+Add `/usr/local/go/bin` to the PATH environment variable. This will install Go in Linux.
 
-Verifying the Installation
-To verify that Go installed successfully, type the command go version in the terminal and it will output the installed Go version. Here is the output in my terminal.
+### Verifying the Installation
+To verify that Go installed successfully, type the command `go version` in the terminal and it will output the installed Go version. Here is the output in my terminal.
 
+```
 $ go version
 go version go1.19.2 linux/amd64
 1.19.2 was the latest version of Go when writing this tutorial. This confirms that Go has been installed successfully. In the next tutorial, we will write our first Hello World program in Go :)
+```
 
 Please provide your valuable feedback and comments. Thanks for reading.
